@@ -6,12 +6,13 @@
     <title>Latin Study</title>
     <script src="script.js"></script>
   </head>
-  <body onload="start(); findCorrectAnswer()">
+  <body onload="start(); findCorrectAnswer(); enterAnswer()">
 <h1 id="type">Type of Vocab Word: </h1>
 <p id="word">Vocab Word: </p>
 <p id="form">Answer Type: </p>
 <input id="answer">
 <button onclick="submitAnswer()">Submit</button>
 <button onclick="giveAnswer()">Skip</button>
+<p id="message"></p>
   </body>
 </html>
